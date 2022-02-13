@@ -1,4 +1,4 @@
- 
+
  gcc -g p2original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
@@ -17,12 +17,12 @@ For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from a.out...done.
 (gdb) b main
-Breakpoint 1 at 0x850: file p2final.c, line 34.
+Breakpoint 1 at 0x850: file p2original.c, line 34.
 (gdb) r
-Starting program: /home/runner/IA2-Test1-Session2-1/a.out 
+Starting program: /home/runner/ppa-IA2-practice2-4/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
-Breakpoint 1, main () at p2final.c:34
+Breakpoint 1, main () at p2original.c:34
 34    int AB = input_side();
 (gdb) n
 Enter a side of the triangle:
@@ -47,7 +47,7 @@ The triangle with sides 1, 2 and 3 is scalene
 The history is empty.
 (gdb) c
 Continuing.
-[Inferior 1 (process 95) exited normally]
+[Inferior 1 (process 353) exited normally]
 (gdb) l
 37
 38    int res = check_scalene(AB, BC, CA);
@@ -55,5 +55,4 @@ Continuing.
 40
 41    return 0;
 42  }
-(gdb) Quit
 (gdb) 
