@@ -1,5 +1,5 @@
 
- gcc -g p1final.c
+ gcc -g p1original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
